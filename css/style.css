@@ -32,23 +32,25 @@ body {
 #lezioni h3,
 #come-funziona h3,
 #why h3 {
-  font-size: 1.2em;
+  font-size: 1.7em;
   margin-bottom: 20px;
 }
 
 #lezioni h2,
 #come-funziona h2,
 #why h2 {
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 #lezioni p,
 #come-funziona p,
 #why p {
+  font-size: 1.5em;
   margin-bottom: 20px;
 }
 
-.paragrafo {
+
+.text {
   width: 80%;
   margin: 0 auto
 }
@@ -66,9 +68,8 @@ body {
 
 
 @media all and (min-width: 991px) {
-  .col-12.margin-50.col-lg-4 {
-    height: 420px;
-    border-bottom: 1px solid grey;
+  .col-12.margin-50.col-lg-4 p{
+    text-align: left;
     padding: 0 10px;
   }
     hr {
@@ -84,14 +85,49 @@ body {
     height: 130px;
   }
 
+
   #lezioni h2,
   #come-funziona h2,
   #why h2 {
     font-size: 1.7em;
   }
+}
 
-  /* #lezioni p,
-  #come-funziona p {
-    padding: 0 8px; */
+@media all and (max-width: 768px) {
+  #lezioni [class*="col-xs"],
+  #come-funziona [class*="col-xs"],
+  #why [class*="col-xs"] {
+    margin-bottom: 20px;
+  }
+
+  #lezioni img,
+  #come-funziona img,
+  #why img {
+    width: auto;
+    height: 100px;
+  }
+
+  #lezioni h2,
+  #come-funziona h2,
+  #why h2 {
+    font-size: 1.3em;
+  }
+
+  #lezioni h3,
+  #come-funziona h3,
+  #why h3 {
+    font-size: 1em;
+  }
+
+  #lezioni p,
+  #come-funziona p,
+  #why p {
+    font-size: 1em;
+  }
+
+  #lezioni,
+  #come-funziona,
+  #why {
+    margin-bottom: 50px;
   }
 }
