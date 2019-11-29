@@ -8,10 +8,8 @@
   height: 200px;
   width: auto;
   margin-bottom: 20px;
-
-
-
 }
+
 
 #why img {
   border-radius: 50%;
@@ -53,4 +51,25 @@
 
 .margin-50 {
   margin-bottom: 50px;
+}
+
+
+
+
+@media all and (min-width: 991px) {
+  .col-12.margin-50.col-lg-4 {
+    height: 420px;
+    border-bottom: 1px solid grey;
+    padding: 0 10px;
+  }
+    hr {
+      display: none;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 992px) {
+  #lezioni img {
+    width: auto;
+    height: 130px;
+  }
 }
