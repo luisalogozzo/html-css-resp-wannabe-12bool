@@ -1,0 +1,13 @@
+.text-align-center {
+  text-align: center;
+}
+
+#lezioni img,
+#come-funziona img {
+  height: 200px;
+  width: auto;
+}
+
+#lezioni {
+  margin-bottom: 50px;
+}
