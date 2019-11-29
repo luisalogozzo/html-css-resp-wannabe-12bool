@@ -29,18 +29,19 @@ body {
   margin-bottom: 100px;
 }
 
-#lezioni h3,
-#come-funziona h3,
-#why h3 {
-  font-size: 1.7em;
-  margin-bottom: 20px;
-}
-
 #lezioni h2,
 #come-funziona h2,
 #why h2 {
   font-size: 2.5em;
 }
+
+#lezioni h3,
+#come-funziona h3,
+#why h3 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
 
 #lezioni p,
 #come-funziona p,
@@ -68,16 +69,20 @@ body {
 
 
 @media all and (min-width: 991px) {
-  .col-12.margin-50.col-lg-4 p{
-    text-align: left;
-    padding: 0 10px;
-  }
+
     hr {
       display: none;
     }
 }
 
-@media all and (min-width: 768px) and (max-width: 992px) {
+@media all and (min-width: 768px) and (max-width: 992px){
+  #lezioni,
+  #come-funziona,
+  #why {
+  background: rgb(174,198,238);
+  background: radial-gradient(circle, rgba(174,198,238,1) 0%, rgba(148,233,214,1) 100%);
+  }
+
   #lezioni img,
   #come-funziona img,
   #why img {
@@ -89,16 +94,35 @@ body {
   #lezioni h2,
   #come-funziona h2,
   #why h2 {
-    font-size: 1.7em;
+    font-size: 2em;
+  }
+
+  #lezioni h3,
+  #come-funziona h3,
+  #why h3 {
+    font-size: 1.5em;
   }
 }
 
 @media all and (max-width: 768px) {
+
+  #lezioni,
+  #come-funziona,
+  #why {
+  background: rgb(174,198,238);
+  background: radial-gradient(circle, rgba(174,198,238,1) 0%, rgba(148,233,214,1) 100%);
+  }
+
   #lezioni [class*="col-xs"],
   #come-funziona [class*="col-xs"],
   #why [class*="col-xs"] {
     margin-bottom: 20px;
   }
+
+  .margin-zero{
+    margin-bottom: 0;
+  }
+
 
   #lezioni img,
   #come-funziona img,
