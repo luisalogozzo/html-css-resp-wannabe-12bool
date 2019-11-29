@@ -108,7 +108,7 @@ margin-left: calc((100% / 12) * 10);
 margin-left: calc((100% / 12) * 11);
 }
 
-
+/* media queries */
 @media all and (max-width: 768px) {
   .col-xs-1 {
     width: calc((100% / 12) * 1);
@@ -259,6 +259,8 @@ margin-left: calc((100% / 12) * 11);
   }
 }
 
+
+/* offset media queries*/
 @media all and (max-width: 768px) {
   .col-xs-offset-1 {
     width: calc((100% / 12) * 1);

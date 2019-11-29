@@ -8,6 +8,28 @@
   width: auto;
 }
 
-#lezioni {
+#lezioni,
+#come-funziona,
+#why {
+  margin-bottom: 100px;
+}
+
+#lezioni h3,
+#come-funziona h3,
+#why h3 {
+  font-size: 1.2em;
+}
+
+#lezioni h2,
+#come-funziona h2,
+#why h2 {
+  font-size: 2em;
+}
+
+#come-funziona {
+  background-color: #F9F9F9;
+}
+
+.margin-50 {
   margin-bottom: 50px;
 }
