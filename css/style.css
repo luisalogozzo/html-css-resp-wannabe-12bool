@@ -1,3 +1,8 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
 .text-align-center {
   text-align: center;
 }
@@ -43,6 +48,10 @@
   margin-bottom: 20px;
 }
 
+.paragrafo {
+  width: 80%;
+  margin: 0 auto
+}
 
 #come-funziona,
 #why {
@@ -68,8 +77,21 @@
 }
 
 @media all and (min-width: 768px) and (max-width: 992px) {
-  #lezioni img {
+  #lezioni img,
+  #come-funziona img,
+  #why img {
     width: auto;
     height: 130px;
+  }
+
+  #lezioni h2,
+  #come-funziona h2,
+  #why h2 {
+    font-size: 1.7em;
+  }
+
+  /* #lezioni p,
+  #come-funziona p {
+    padding: 0 8px; */
   }
 }
