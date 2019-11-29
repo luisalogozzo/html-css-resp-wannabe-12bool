@@ -83,6 +83,10 @@ body {
   background: radial-gradient(circle, rgba(174,198,238,1) 0%, rgba(148,233,214,1) 100%);
   }
 
+  #why div:last-of-type {
+    margin-bottom: 0;
+  }
+
   #lezioni img,
   #come-funziona img,
   #why img {
@@ -94,6 +98,7 @@ body {
   #lezioni h2,
   #come-funziona h2,
   #why h2 {
+    margin-top: 20px;
     font-size: 2em;
   }
 
@@ -119,7 +124,7 @@ body {
     margin-bottom: 20px;
   }
 
-  .margin-zero{
+  #why div:last-of-type {
     margin-bottom: 0;
   }
 
@@ -134,6 +139,7 @@ body {
   #lezioni h2,
   #come-funziona h2,
   #why h2 {
+    margin-top: 20px;
     font-size: 1.3em;
   }
 
